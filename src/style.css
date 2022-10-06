@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card-body {
+  height: 450px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#palotop {
+  height: 150px;
+  font-size: 80px;
+  text-align: left;
+  line-height: 100px;
+  padding-top: 20px;
+}
+
+#number {
+  height: 150px;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 20px;
+}
+
+#palobottom {
+  height: 150px;
+  font-size: 80px;
+  line-height: 100px;
+  padding-top: 20px;
+  text-align: end;
+  transform: rotate(180deg);
+}
